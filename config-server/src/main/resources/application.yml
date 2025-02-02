@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/diana849/spring-cloud-config
+          default-label: dev
+server:
+  port: 8888
